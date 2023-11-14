@@ -26,9 +26,18 @@ print(x)
 
 
 # Return Vs Print
+# Return
 def foo1():
 	value = 10
 	return value
+
+x = foo1()
+print(x)
+
+# Print
+def foo1():
+	value = 10
+	print(value)
 
 x = foo1()
 print(x)
